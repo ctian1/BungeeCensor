@@ -1,0 +1,20 @@
+sql:
+  host: "localhost"
+  port: 3306
+  database: "censor"
+  username: "root"
+  password: "root"
+
+messages:
+  console: "&cThis subcommand is for players only."
+  usage: "&cUsage: /censor [on|off|toggle]"
+  mod_usage: "&cUsage: /censor [on|off|toggle|reload]"
+  reload: "&bBungeeCensor config has been reloaded."
+  reload_fail: "&cAn error occurred while reloading config. Check the console."
+  enable: "&7Your chat will now be &acensored&7."
+  disable: "&7Your chat will now be &cuncensored&7."
+  no_permission: "&cSorry, you don't have permission to do that. (bungeecensor.reload)"
+
+words:
+  - fuck
+  - shit

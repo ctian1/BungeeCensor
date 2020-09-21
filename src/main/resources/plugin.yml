@@ -1,0 +1,4 @@
+name: BungeeCensor
+version: ${project.version}
+main: pw.ngea.bungeecensor.BungeeCensor
+author: Pangea
